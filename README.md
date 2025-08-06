@@ -58,3 +58,5 @@ No Cloud. No 3rd-Party Access. **You own your data.**
     "password": "your_password"
   }
 ]
+---
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/shivshankarnamdev)

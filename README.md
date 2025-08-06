@@ -1,5 +1,7 @@
 # Secure Auto Login Manager 🔒
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-%E2%98%95-yellow?style=for-the-badge)](https://www.buymeacoffee.com/shivshankarnamdev)
+
 A privacy-first Chrome Extension that securely auto-fills and logs you into websites using credentials stored **locally** in your browser.  
 No Cloud. No 3rd-Party Access. **You own your data.**
 
@@ -47,7 +49,7 @@ No Cloud. No 3rd-Party Access. **You own your data.**
 
 ---
 
-## 🗃️ Import/Export Format
+## 🗃️ Import/Export JSON Format
 ```json
 [
   {

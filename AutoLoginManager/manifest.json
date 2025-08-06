@@ -16,5 +16,11 @@
   ],
   "side_panel": {
     "default_path": "sidepanel.html"
-  }
+  },
+  "icons": {
+  "16": "assets/logo.png",
+  "32": "assets/logo.png",
+  "48": "assets/logo.png",
+  "128": "assets/logo.png"
+}
 }

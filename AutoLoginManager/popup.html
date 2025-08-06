@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Login Panel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      margin: 0;
+      background-color: #f9f9f9;
+    }
+
+    h3, h4 {
+      margin: 10px 0;
+      font-size: 16px;
+      color: #333;
+    }
+
+    #siteList {
+      margin-bottom: 20px;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    #siteList div {
+      display: flex;
+      align-items: center;
+      background: #fff;
+      padding: 8px;
+      border-radius: 6px;
+      margin-bottom: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    #siteList button.site-btn {
+      flex: 1;
+      padding: 6px 10px;
+      border: none;
+      background-color: #1976d2;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    #siteList button.site-btn:hover {
+      background-color: #1565c0;
+    }
+
+    .delete-icon {
+      color: #e53935;
+      cursor: pointer;
+      margin-left: 10px;
+      font-size: 16px;
+    }
+
+    .delete-icon:hover {
+      color: #c62828;
+    }
+
+    input {
+      width: calc(100% - 10px);
+      margin: 5px 0;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    #saveBtn {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #43a047;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    #saveBtn:hover {
+      background-color: #388e3c;
+    }
+  </style>
+</head>
+<body>
+  <h3>Saved Sites</h3>
+  <div id="siteList"></div>
+  <h4>Add New Site</h4>
+  <input id="siteName" placeholder="Site Name"/><br/>
+  <input id="siteUrl" placeholder="Site URL"/><br/>
+  <input id="loginUrl" placeholder="Login Page URL (optional)"/><br/>
+  <input id="username" placeholder="User ID"/><br/>
+  <input id="password" placeholder="Password" type="password"/><br/>
+  <button id="saveBtn">Save</button>
+  <script src="sidepanel.js"></script>
+</body>
+</html>

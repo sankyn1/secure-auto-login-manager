@@ -4,8 +4,8 @@
   "version": "1.0",
   "permissions": ["storage", "tabs", "scripting", "sidePanel"],
   "host_permissions": ["<all_urls>"],
-  "background": {
-    "service_worker": "background.js"
+  "action": {
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
